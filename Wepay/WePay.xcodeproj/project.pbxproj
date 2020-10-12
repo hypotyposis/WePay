@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050338F922DD8290004FB076 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050338F822DD8290004FB076 /* OrderModel.swift */; };
+		050338FB22DD8A57004FB076 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050338FA22DD8A57004FB076 /* TableCell.swift */; };
+		050338FD22DDAEEE004FB076 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050338FC22DDAEEE004FB076 /* ItemModel.swift */; };
+		050338FF22DDB025004FB076 /* GetOrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050338FE22DDB025004FB076 /* GetOrderModel.swift */; };
+		051C10B322DEC00A00C814DF /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051C10B222DEC00A00C814DF /* NewsDetailViewController.swift */; };
+		051C10B522DEC1D300C814DF /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051C10B422DEC1D300C814DF /* DetailCell.swift */; };
+		051C10C222E03FF100C814DF /* LBXScanNetAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051C10BB22E03FF100C814DF /* LBXScanNetAnimation.swift */; };
+		051C10C322E03FF100C814DF /* LBXScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051C10BC22E03FF100C814DF /* LBXScanView.swift */; };
+		051C10C422E03FF100C814DF /* LBXScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051C10BD22E03FF100C814DF /* LBXScanViewController.swift */; };
+		051C10C522E03FF100C814DF /* LBXScanLineAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051C10BE22E03FF100C814DF /* LBXScanLineAnimation.swift */; };
+		051C10C622E03FF100C814DF /* LBXScanViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051C10BF22E03FF100C814DF /* LBXScanViewStyle.swift */; };
+		051C10C722E03FF100C814DF /* LBXPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051C10C022E03FF100C814DF /* LBXPermissions.swift */; };
+		051C10C822E03FF100C814DF /* LBXScanWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 051C10C122E03FF100C814DF /* LBXScanWrapper.swift */; };
+		0533960122D1A4490016BB07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533960022D1A4490016BB07 /* AppDelegate.swift */; };
+		0533960322D1A4490016BB07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533960222D1A4490016BB07 /* ViewController.swift */; };
+		0533960622D1A4490016BB07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0533960422D1A4490016BB07 /* Main.storyboard */; };
+		0533960822D1A44C0016BB07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0533960722D1A44C0016BB07 /* Assets.xcassets */; };
+		0533960B22D1A44C0016BB07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0533960922D1A44C0016BB07 /* LaunchScreen.storyboard */; };
+		0533961622D1A44D0016BB07 /* WePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533961522D1A44D0016BB07 /* WePayTests.swift */; };
+		0533962322D1D8CF0016BB07 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533962222D1D8CF0016BB07 /* UserViewController.swift */; };
+		0533962622D1E42E0016BB07 /* UITextFieldExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0533962522D1E42E0016BB07 /* UITextFieldExt.swift */; };
+		058E09C722D58512002C5E50 /* UIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058E09C622D58512002C5E50 /* UIColorExt.swift */; };
+		058E09D622D5D417002C5E50 /* AccountRalationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058E09D522D5D417002C5E50 /* AccountRalationModel.swift */; };
+		059C468122D31D9200918246 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C468022D31D9200918246 /* LeftViewController.swift */; };
+		059C468322D4373D00918246 /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C468222D4373D00918246 /* UIImageExt.swift */; };
+		059C468B22D452DC00918246 /* InfoModifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C468A22D452DC00918246 /* InfoModifyViewController.swift */; };
+		059C468F22D46B0D00918246 /* BingingAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C468E22D46B0D00918246 /* BingingAccountViewController.swift */; };
+		059C469122D46F5700918246 /* BindingPayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C469022D46F5700918246 /* BindingPayViewController.swift */; };
+		059C469322D46F6E00918246 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C469222D46F6E00918246 /* NewsViewController.swift */; };
+		059C469522D470AE00918246 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 059C469422D470AE00918246 /* AboutViewController.swift */; };
+		05DBAEEA22D970A300BE4163 /* FloatButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DBAEE922D970A300BE4163 /* FloatButton.swift */; };
+		05DBAEEC22D97B3B00BE4163 /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05DBAEEB22D97B3B00BE4163 /* QRCodeViewController.swift */; };
+		05FD014722DADF0E001BAB0A /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FD014622DADF0E001BAB0A /* RegisterViewController.swift */; };
+		05FD014B22DB0C0A001BAB0A /* ChangePasswdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FD014A22DB0C0A001BAB0A /* ChangePasswdViewController.swift */; };
+		05FD014F22DC5A83001BAB0A /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FD014E22DC5A83001BAB0A /* PaymentModel.swift */; };
+		7E7760ECB47CC78BFF059522 /* Pods_WePay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C476FAF331C4C3239674D490 /* Pods_WePay.framework */; };
+		F2ADE578CA57F6DC25FB907D /* Pods_WePayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B51FEFFE16320EFB690020A /* Pods_WePayTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0533961222D1A44D0016BB07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 053395F522D1A4490016BB07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 053395FC22D1A4490016BB07;
+			remoteInfo = WePay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		050338F822DD8290004FB076 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		050338FA22DD8A57004FB076 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
+		050338FC22DDAEEE004FB076 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		050338FE22DDB025004FB076 /* GetOrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOrderModel.swift; sourceTree = "<group>"; };
+		051C10B222DEC00A00C814DF /* NewsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		051C10B422DEC1D300C814DF /* DetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		051C10BB22E03FF100C814DF /* LBXScanNetAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanNetAnimation.swift; sourceTree = "<group>"; };
+		051C10BC22E03FF100C814DF /* LBXScanView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanView.swift; sourceTree = "<group>"; };
+		051C10BD22E03FF100C814DF /* LBXScanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanViewController.swift; sourceTree = "<group>"; };
+		051C10BE22E03FF100C814DF /* LBXScanLineAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanLineAnimation.swift; sourceTree = "<group>"; };
+		051C10BF22E03FF100C814DF /* LBXScanViewStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanViewStyle.swift; sourceTree = "<group>"; };
+		051C10C022E03FF100C814DF /* LBXPermissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXPermissions.swift; sourceTree = "<group>"; };
+		051C10C122E03FF100C814DF /* LBXScanWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LBXScanWrapper.swift; sourceTree = "<group>"; };
+		053395FD22D1A4490016BB07 /* WePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0533960022D1A4490016BB07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0533960222D1A4490016BB07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0533960522D1A4490016BB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0533960722D1A44C0016BB07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0533960A22D1A44C0016BB07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0533960C22D1A44C0016BB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0533961122D1A44D0016BB07 /* WePayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WePayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0533961522D1A44D0016BB07 /* WePayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WePayTests.swift; sourceTree = "<group>"; };
+		0533961722D1A44D0016BB07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0533962222D1D8CF0016BB07 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		0533962522D1E42E0016BB07 /* UITextFieldExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldExt.swift; sourceTree = "<group>"; };
+		058E09C622D58512002C5E50 /* UIColorExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExt.swift; sourceTree = "<group>"; };
+		058E09D222D5BDB5002C5E50 /* WePay-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WePay-Bridging-Header.h"; sourceTree = "<group>"; };
+		058E09D522D5D417002C5E50 /* AccountRalationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountRalationModel.swift; sourceTree = "<group>"; };
+		059C468022D31D9200918246 /* LeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		059C468222D4373D00918246 /* UIImageExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
+		059C468A22D452DC00918246 /* InfoModifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoModifyViewController.swift; sourceTree = "<group>"; };
+		059C468E22D46B0D00918246 /* BingingAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BingingAccountViewController.swift; sourceTree = "<group>"; };
+		059C469022D46F5700918246 /* BindingPayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingPayViewController.swift; sourceTree = "<group>"; };
+		059C469222D46F6E00918246 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		059C469422D470AE00918246 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		05DBAEE922D970A300BE4163 /* FloatButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatButton.swift; sourceTree = "<group>"; };
+		05DBAEEB22D97B3B00BE4163 /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		05FD014622DADF0E001BAB0A /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		05FD014A22DB0C0A001BAB0A /* ChangePasswdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswdViewController.swift; sourceTree = "<group>"; };
+		05FD014E22DC5A83001BAB0A /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+		0DFD1E41E13E0501652C0952 /* Pods-WePayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WePayTests.debug.xcconfig"; path = "Target Support Files/Pods-WePayTests/Pods-WePayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B51FEFFE16320EFB690020A /* Pods_WePayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WePayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C476FAF331C4C3239674D490 /* Pods_WePay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WePay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E264180C4904CCA51B36B5AD /* Pods-WePay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WePay.debug.xcconfig"; path = "Target Support Files/Pods-WePay/Pods-WePay.debug.xcconfig"; sourceTree = "<group>"; };
+		EBD68FDEE6C9A429ACDD7061 /* Pods-WePayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WePayTests.release.xcconfig"; path = "Target Support Files/Pods-WePayTests/Pods-WePayTests.release.xcconfig"; sourceTree = "<group>"; };
+		F4F827A374298DDA81198889 /* Pods-WePay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WePay.release.xcconfig"; path = "Target Support Files/Pods-WePay/Pods-WePay.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		053395FA22D1A4490016BB07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7760ECB47CC78BFF059522 /* Pods_WePay.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0533960E22D1A44D0016BB07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2ADE578CA57F6DC25FB907D /* Pods_WePayTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051C10BA22E03FF100C814DF /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				051C10BB22E03FF100C814DF /* LBXScanNetAnimation.swift */,
+				051C10BC22E03FF100C814DF /* LBXScanView.swift */,
+				051C10BD22E03FF100C814DF /* LBXScanViewController.swift */,
+				051C10BE22E03FF100C814DF /* LBXScanLineAnimation.swift */,
+				051C10BF22E03FF100C814DF /* LBXScanViewStyle.swift */,
+				051C10C022E03FF100C814DF /* LBXPermissions.swift */,
+				051C10C122E03FF100C814DF /* LBXScanWrapper.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		053395F422D1A4490016BB07 = {
+			isa = PBXGroup;
+			children = (
+				053395FF22D1A4490016BB07 /* WePay */,
+				0533961422D1A44D0016BB07 /* WePayTests */,
+				053395FE22D1A4490016BB07 /* Products */,
+				E260CEC286D434141BC9EE90 /* Pods */,
+				2EC31598C31E6F17324B2B5D /* Frameworks */,
+				058E09D222D5BDB5002C5E50 /* WePay-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		053395FE22D1A4490016BB07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				053395FD22D1A4490016BB07 /* WePay.app */,
+				0533961122D1A44D0016BB07 /* WePayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		053395FF22D1A4490016BB07 /* WePay */ = {
+			isa = PBXGroup;
+			children = (
+				051C10BA22E03FF100C814DF /* Source */,
+				058E09C822D5872C002C5E50 /* entity */,
+				059C469D22D4804700918246 /* view_controller */,
+				0533962422D1E4090016BB07 /* util */,
+				0533960022D1A4490016BB07 /* AppDelegate.swift */,
+				0533960422D1A4490016BB07 /* Main.storyboard */,
+				0533960722D1A44C0016BB07 /* Assets.xcassets */,
+				0533960922D1A44C0016BB07 /* LaunchScreen.storyboard */,
+				0533960C22D1A44C0016BB07 /* Info.plist */,
+			);
+			path = WePay;
+			sourceTree = "<group>";
+		};
+		0533961422D1A44D0016BB07 /* WePayTests */ = {
+			isa = PBXGroup;
+			children = (
+				0533961522D1A44D0016BB07 /* WePayTests.swift */,
+				0533961722D1A44D0016BB07 /* Info.plist */,
+			);
+			path = WePayTests;
+			sourceTree = "<group>";
+		};
+		0533962422D1E4090016BB07 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				0533962522D1E42E0016BB07 /* UITextFieldExt.swift */,
+				059C468222D4373D00918246 /* UIImageExt.swift */,
+				058E09C622D58512002C5E50 /* UIColorExt.swift */,
+				05DBAEE922D970A300BE4163 /* FloatButton.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		058E09C822D5872C002C5E50 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				058E09D522D5D417002C5E50 /* AccountRalationModel.swift */,
+				05FD014E22DC5A83001BAB0A /* PaymentModel.swift */,
+				050338F822DD8290004FB076 /* OrderModel.swift */,
+				050338FC22DDAEEE004FB076 /* ItemModel.swift */,
+				050338FE22DDB025004FB076 /* GetOrderModel.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		059C469D22D4804700918246 /* view_controller */ = {
+			isa = PBXGroup;
+			children = (
+				0533960222D1A4490016BB07 /* ViewController.swift */,
+				0533962222D1D8CF0016BB07 /* UserViewController.swift */,
+				059C468022D31D9200918246 /* LeftViewController.swift */,
+				059C468A22D452DC00918246 /* InfoModifyViewController.swift */,
+				059C468E22D46B0D00918246 /* BingingAccountViewController.swift */,
+				059C469022D46F5700918246 /* BindingPayViewController.swift */,
+				059C469222D46F6E00918246 /* NewsViewController.swift */,
+				059C469422D470AE00918246 /* AboutViewController.swift */,
+				05DBAEEB22D97B3B00BE4163 /* QRCodeViewController.swift */,
+				05FD014622DADF0E001BAB0A /* RegisterViewController.swift */,
+				05FD014A22DB0C0A001BAB0A /* ChangePasswdViewController.swift */,
+				050338FA22DD8A57004FB076 /* TableCell.swift */,
+				051C10B222DEC00A00C814DF /* NewsDetailViewController.swift */,
+				051C10B422DEC1D300C814DF /* DetailCell.swift */,
+			);
+			path = view_controller;
+			sourceTree = "<group>";
+		};
+		2EC31598C31E6F17324B2B5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C476FAF331C4C3239674D490 /* Pods_WePay.framework */,
+				1B51FEFFE16320EFB690020A /* Pods_WePayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E260CEC286D434141BC9EE90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E264180C4904CCA51B36B5AD /* Pods-WePay.debug.xcconfig */,
+				F4F827A374298DDA81198889 /* Pods-WePay.release.xcconfig */,
+				0DFD1E41E13E0501652C0952 /* Pods-WePayTests.debug.xcconfig */,
+				EBD68FDEE6C9A429ACDD7061 /* Pods-WePayTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		053395FC22D1A4490016BB07 /* WePay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0533961A22D1A44D0016BB07 /* Build configuration list for PBXNativeTarget "WePay" */;
+			buildPhases = (
+				0454A4918A501EABA6444EDC /* [CP] Check Pods Manifest.lock */,
+				053395F922D1A4490016BB07 /* Sources */,
+				053395FA22D1A4490016BB07 /* Frameworks */,
+				053395FB22D1A4490016BB07 /* Resources */,
+				49DBA458B8B8DC43B5A7C626 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WePay;
+			productName = WePay;
+			productReference = 053395FD22D1A4490016BB07 /* WePay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0533961022D1A44D0016BB07 /* WePayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0533961D22D1A44D0016BB07 /* Build configuration list for PBXNativeTarget "WePayTests" */;
+			buildPhases = (
+				679A5151819745894591CABE /* [CP] Check Pods Manifest.lock */,
+				0533960D22D1A44D0016BB07 /* Sources */,
+				0533960E22D1A44D0016BB07 /* Frameworks */,
+				0533960F22D1A44D0016BB07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0533961322D1A44D0016BB07 /* PBXTargetDependency */,
+			);
+			name = WePayTests;
+			productName = WePayTests;
+			productReference = 0533961122D1A44D0016BB07 /* WePayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		053395F522D1A4490016BB07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Wallance;
+				TargetAttributes = {
+					053395FC22D1A4490016BB07 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+					0533961022D1A44D0016BB07 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 053395FC22D1A4490016BB07;
+					};
+				};
+			};
+			buildConfigurationList = 053395F822D1A4490016BB07 /* Build configuration list for PBXProject "WePay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 053395F422D1A4490016BB07;
+			productRefGroup = 053395FE22D1A4490016BB07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				053395FC22D1A4490016BB07 /* WePay */,
+				0533961022D1A44D0016BB07 /* WePayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		053395FB22D1A4490016BB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0533960B22D1A44C0016BB07 /* LaunchScreen.storyboard in Resources */,
+				0533960822D1A44C0016BB07 /* Assets.xcassets in Resources */,
+				0533960622D1A4490016BB07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0533960F22D1A44D0016BB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0454A4918A501EABA6444EDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WePay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49DBA458B8B8DC43B5A7C626 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WePay/Pods-WePay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WePay/Pods-WePay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WePay/Pods-WePay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		679A5151819745894591CABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WePayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		053395F922D1A4490016BB07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051C10C222E03FF100C814DF /* LBXScanNetAnimation.swift in Sources */,
+				051C10C722E03FF100C814DF /* LBXPermissions.swift in Sources */,
+				051C10B322DEC00A00C814DF /* NewsDetailViewController.swift in Sources */,
+				051C10C622E03FF100C814DF /* LBXScanViewStyle.swift in Sources */,
+				051C10C522E03FF100C814DF /* LBXScanLineAnimation.swift in Sources */,
+				0533962322D1D8CF0016BB07 /* UserViewController.swift in Sources */,
+				0533960322D1A4490016BB07 /* ViewController.swift in Sources */,
+				058E09D622D5D417002C5E50 /* AccountRalationModel.swift in Sources */,
+				050338FF22DDB025004FB076 /* GetOrderModel.swift in Sources */,
+				05DBAEEC22D97B3B00BE4163 /* QRCodeViewController.swift in Sources */,
+				059C469522D470AE00918246 /* AboutViewController.swift in Sources */,
+				0533960122D1A4490016BB07 /* AppDelegate.swift in Sources */,
+				059C469322D46F6E00918246 /* NewsViewController.swift in Sources */,
+				059C468F22D46B0D00918246 /* BingingAccountViewController.swift in Sources */,
+				05FD014B22DB0C0A001BAB0A /* ChangePasswdViewController.swift in Sources */,
+				059C468B22D452DC00918246 /* InfoModifyViewController.swift in Sources */,
+				050338FB22DD8A57004FB076 /* TableCell.swift in Sources */,
+				05FD014722DADF0E001BAB0A /* RegisterViewController.swift in Sources */,
+				050338FD22DDAEEE004FB076 /* ItemModel.swift in Sources */,
+				059C468122D31D9200918246 /* LeftViewController.swift in Sources */,
+				059C469122D46F5700918246 /* BindingPayViewController.swift in Sources */,
+				0533962622D1E42E0016BB07 /* UITextFieldExt.swift in Sources */,
+				051C10C422E03FF100C814DF /* LBXScanViewController.swift in Sources */,
+				059C468322D4373D00918246 /* UIImageExt.swift in Sources */,
+				051C10B522DEC1D300C814DF /* DetailCell.swift in Sources */,
+				051C10C322E03FF100C814DF /* LBXScanView.swift in Sources */,
+				051C10C822E03FF100C814DF /* LBXScanWrapper.swift in Sources */,
+				058E09C722D58512002C5E50 /* UIColorExt.swift in Sources */,
+				05FD014F22DC5A83001BAB0A /* PaymentModel.swift in Sources */,
+				050338F922DD8290004FB076 /* OrderModel.swift in Sources */,
+				05DBAEEA22D970A300BE4163 /* FloatButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0533960D22D1A44D0016BB07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0533961622D1A44D0016BB07 /* WePayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0533961322D1A44D0016BB07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 053395FC22D1A4490016BB07 /* WePay */;
+			targetProxy = 0533961222D1A44D0016BB07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0533960422D1A4490016BB07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0533960522D1A4490016BB07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0533960922D1A44C0016BB07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0533960A22D1A44C0016BB07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0533961822D1A44D0016BB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0533961922D1A44D0016BB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0533961B22D1A44D0016BB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E264180C4904CCA51B36B5AD /* Pods-WePay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QTJ52F6C45;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK/SMSSDK",
+					"$(PROJECT_DIR)/SDK/Required",
+				);
+				INFOPLIST_FILE = WePay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zzl.WePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WePay-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0533961C22D1A44D0016BB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F827A374298DDA81198889 /* Pods-WePay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QTJ52F6C45;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK/SMSSDK",
+					"$(PROJECT_DIR)/SDK/Required",
+				);
+				INFOPLIST_FILE = WePay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zzl.WePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WePay-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0533961E22D1A44D0016BB07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DFD1E41E13E0501652C0952 /* Pods-WePayTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QTJ52F6C45;
+				INFOPLIST_FILE = WePayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zzl.WePayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WePay.app/WePay";
+			};
+			name = Debug;
+		};
+		0533961F22D1A44D0016BB07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD68FDEE6C9A429ACDD7061 /* Pods-WePayTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QTJ52F6C45;
+				INFOPLIST_FILE = WePayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = zzl.WePayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WePay.app/WePay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		053395F822D1A4490016BB07 /* Build configuration list for PBXProject "WePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0533961822D1A44D0016BB07 /* Debug */,
+				0533961922D1A44D0016BB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0533961A22D1A44D0016BB07 /* Build configuration list for PBXNativeTarget "WePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0533961B22D1A44D0016BB07 /* Debug */,
+				0533961C22D1A44D0016BB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0533961D22D1A44D0016BB07 /* Build configuration list for PBXNativeTarget "WePayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0533961E22D1A44D0016BB07 /* Debug */,
+				0533961F22D1A44D0016BB07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 053395F522D1A4490016BB07 /* Project object */;
+}
